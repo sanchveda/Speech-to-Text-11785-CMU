@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "main.py", line 505, in <module>
+    train_data=np.load(train_data_filepath,allow_pickle=True,encoding='latin1')
+  File "/home/sas479/mypython/lib/python3.6/site-packages/numpy/lib/npyio.py", line 453, in load
+    pickle_kwargs=pickle_kwargs)
+  File "/home/sas479/mypython/lib/python3.6/site-packages/numpy/lib/format.py", line 727, in read_array
+    array = pickle.load(fp, **pickle_kwargs)
+KeyboardInterrupt
