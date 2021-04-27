@@ -1,0 +1,9 @@
+Encoder - To - Decoder Architecture to convert Phonemes to Text. 
+
+Main components :
+  - A LSTM based encoder
+  - An attention module 
+  - An LSTM basedd decoder to use attention module with the encoded embeddings. 
+  
+Model is character based. 
+
